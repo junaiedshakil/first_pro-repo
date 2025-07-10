@@ -7,7 +7,7 @@
       "wdth" 100;
   }
 nav{
-    width: 1140px;
+    width: 1600px;
     height: 151px;
     margin: 0 auto;
     padding-top: 10px;
@@ -42,8 +42,8 @@ ul button{
     border: none;
 }
 .header{
-    width: 1890px;
-    height: 550px;
+    width: 1880px;
+    height: 580px;
     background-image: url(/Assets/Hero-bg.png);
     margin: 0 auto;
     
@@ -66,4 +66,132 @@ ul button{
     color: aliceblue; 
     border: none;
     border-radius: 10px;
+}
+.ban{
+    width: 1250px;
+    height: 382px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    ;
+}
+
+.ban img{
+    border-radius: 35px;
+    width: 380px;
+    height: 330px;
+}
+.ban1{
+    width: 350px;
+    height: 203px;
+}
+.ban1 h2{
+    font-size: 35px;
+}
+.ban1 button{
+    width: 174px;
+    height: 38px;
+    color: aliceblue; 
+    background-color:#4E47FF;
+    border: none;
+    border-radius: 10px;
+}
+.user{
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D0CAE0;
+    border: none;
+    border-radius: 25px;
+    margin-top: 100px;
+    
+}
+.uses{
+    margin: 0 auto;
+    width: 856px;
+    text-align: center;
+    
+}
+.uses h2{
+    font-size: 30px;
+}
+.box{
+    width: 856px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+.box h1 {
+    font-size: 70px;
+}
+.box h1,
+.box p{
+    margin:0;
+    
+}
+.box h1{
+    color:#4E47FF;
+}
+.box p{
+    color:#414049;
+}
+
+.input-l{
+    width: 1140px;
+    height: 550px;
+    background-color: #D0CAE0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border: none;
+    border-radius: 20px;
+}
+.get-input{
+    display: flex;
+}
+.get-input1 h1{
+    width: 528px;
+    height: 232px;
+    font-size: 80px;
+    
+
+}
+.get-input2 input,
+.get-input2 textarea{
+    display: block;
+    width: 350px;
+    height: 20px;
+    padding: 16px;  
+    margin: 7px 0;
+    border:none;
+    border-radius: 15px;
+}
+.get-input2 textarea{
+    display: block;
+    width: 350px;
+    height: 80px;
+    padding: 20px;  
+    margin: 7px 0;
+    border:none;
+    border-radius: 15px;
+}
+.get-input2 button{
+    width: 400px;
+    height:50px;
+    color: aliceblue;
+    background-color:#4E47FF ;
+    padding: 15px;  
+    margin: 7px 0;
+    border:none;
+    border-radius: 15px;
 }
