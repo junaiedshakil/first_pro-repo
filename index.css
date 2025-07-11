@@ -5,27 +5,22 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-  }
+}
 nav{
     width: 1600px;
     height: 151px;
     margin: 0 auto;
-    padding-top: 10px;
-
-    
+    padding-top: 10px; 
 }
 nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
-    
+    align-items: center;  
 }
 nav a{
     text-decoration: none;
-    color:#4E47FF;
-    
+    color:#4E47FF; 
 }
 .first{
     width: 99px;
@@ -75,7 +70,6 @@ ul button{
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
-    
 }
 
 .ban img{
@@ -134,8 +128,7 @@ ul button{
 }
 .box h1,
 .box p{
-    margin:0;
-    
+    margin:0;  
 }
 .box h1{
     color:#4E47FF;
@@ -143,7 +136,6 @@ ul button{
 .box p{
     color:#414049;
 }
-
 .input-l{
     width: 1200px;
     height: 550px;
@@ -163,9 +155,6 @@ ul button{
     width: 528px;
     height: 232px;
     font-size: 80px;
-    
-    
-
 }
 .get-input2 input,
 .get-input2 textarea{
@@ -187,9 +176,7 @@ ul button{
     border-radius: 15px;
 }
 textarea::placeholder{
-    font-family:  sans-serif;
-
-    
+    font-family:  sans-serif;  
 }
 .get-input2 button{
     width: 400px;
@@ -217,8 +204,7 @@ textarea::placeholder{
 .logo p{
     width: 531px;
     height: 48px;
-    color: #8987A1;
-    
+    color: #8987A1; 
 }
 .logo h1,
 .logo p{
@@ -242,8 +228,7 @@ textarea::placeholder{
 }
 .review1{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 .review2{
     width: 290px;
@@ -253,9 +238,7 @@ textarea::placeholder{
     border-radius: 15px;
     padding: 20px;
     margin: 10px;
-    background-color: rgb(249, 250, 251);
-    
-    
+    background-color: rgb(249, 250, 251);    
 }
 .review3{
     display: flex;
@@ -285,5 +268,35 @@ textarea::placeholder{
     font-size: 13px;
     color: rgb(173, 171, 171);
     padding-left: 8px;
+}
+.btn{
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: none;
+    border-radius: 50px;
+}
+.end{
+    width: 180px;
+    height: 70px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    background-color: #007BFF;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s ease;
 
+}
+.end:hover{
+    transform:scale(1.1);
+    box-shadow: 0 0 20px #6C5CE7, 0 0 40px #a29bfe;
 }
